@@ -95,6 +95,15 @@ module ChessGame
 
 		 end
 
+		 def draw_path(current, target, result = [],steps)
+		 	#result << if steps <= 1 direction else or until steps ==1
+		 	#current = result.last
+		 	#recursively add steps between current and target exclusively
+		 	#[[1,1],[2,2],[3,3]]where current =0,0 and target = 4,4
+		 	#steps -= 1
+		 	#result << direction
+		 	#if diag_down(x+1...x),(y+1...y) draw_path(current +)
+
 
 	  end
 
